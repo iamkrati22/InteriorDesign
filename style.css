@@ -48,6 +48,7 @@ a{
 }
 .nav-mid ul li {
     padding: 1.3vw;
+   
 }
 .nav-mid ul li a{
     color: var(--green);
@@ -72,6 +73,7 @@ a{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border-radius: 10px;
 }
 .nav-rgt ul li a{
     color: var(--primary);
@@ -122,9 +124,10 @@ a{
     color: var(--green);
     margin-left: 1vw;
     font-family: var(--primary-font);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     padding: 1.8vw 1vw;
+    text-align: center;
 }
 .about-top{
     flex: 1;
@@ -152,7 +155,7 @@ a{
     /background-color: rebeccapurple;
 }
 .about-top-lft h6{
-    margin-top: 8vw;
+    margin-top: 4vw;
     padding: 2vw;
     font-size: 15px;
     font-family: var(--primary-font);
@@ -393,6 +396,7 @@ input:focus {
 }
 .f1-top img{
     height: 5vw;
+    margin-left: 5vw;
 }
 .f1-top h1{
     color: var(--primary);
@@ -446,10 +450,10 @@ input:focus {
 
 .carousel {
     position: relative;
-    height: 400px;
-    width: 500px;
+    height: 500px;
+    width: 650px;
     margin: 0 auto;
-    margin-bottom: 5rem;
+    margin-top: -4rem;
   }
   .carousel__images {
     max-width: 60vw;
