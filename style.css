@@ -81,7 +81,7 @@ a{
 
 .main-ctn{
     height: 100%;
-    background-image: url("./images/bg2.png");
+    background-image: url("./images/4.JPG");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,15 +171,15 @@ a{
 }
 
 .about-hd{
-    font-size: 30px;
+    font-size: 28px;
     padding: 1vw;
     padding-left: 0vw;
 }
 .about-about{
-    font-size: 15px;
+    font-size: 13px;
     font-family: var(--primary-font);
     font-weight: 400;
-    padding-bottom: 1vw;
+    padding-bottom: 2vw;
 }
 .services{
     display: flex;
@@ -215,7 +215,8 @@ a{
     flex: 1;
     margin: 1vw;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
-    height: 25vw;
+    height: 35vw;
+    padding: 1vw;
 }
 .services-btm-ctn img{
     padding: 1vw;
@@ -232,25 +233,25 @@ a{
     margin-left: 1.5vw;
     margin-right: 1.5vw;
 }
-#services-2 {
+.services-btm-ctn{
     background-color: var(--green);
     color: var(--primary);
 }
 
-#services-2 .service-head{
+.services-btm-ctn .service-head{
     color: var(--primary);
 }
 
-#services-2 button{
+.services-btm-ctn button{
     background-color: var(--primary);
     color: var(--green);
 }
 
 .services-btm-ctn button{
-    color: var(--primary);
+    color: var(--green);
     font-family: var(--primary-font);
     font-weight: 500;
-    background-color: #177171;
+    background-color: var(--primary);
     border: none;
     padding: 10px 20px;
     margin: 1vw;
@@ -262,12 +263,274 @@ a{
 #contactus{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 .contact-us{
     flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+.contact-sub-section{
+    border: 1px solid var(--green);
+    width: 90%;
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-ss-lft{
+    padding: 1.5vw;
+    flex: 1;
+    border-right: 1px solid var(--green);
+    display: flex;
+    flex-direction: column;
+}
+.contact-ssl-head{
+    color: var(--green);
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+}
+.cssl{
+    padding: 1vw;
+    border: 1px solid lightgrey;
+    margin: 1vw;
+    width: 60%;
+    font-family: var(--primary-font);
+    border-radius: 0.5vw;
+}
+#cssl-1{
+    color: var(--green);
+    cursor: pointer;
+    font-size: 1vw;
+}
+#cssl-2{
+    background-color: var(--green);
+    color: var(--primary);
+    cursor: pointer;
+    font-size: 1vw;
+}
+.contact-ss-rgt{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}
+.cssr{
+    margin: 1vw;
+}
+#cssr1{
+    display: flex;
+    flex-direction: row;
+}
+#cssr1 div{
+    margin-right: 5vw;
+   
+}
+
+label{
+    color: var(--green);
+    font-family: var(--primary-font);
+    font-size: 1.3vw;
+    padding-bottom: 0.8vw;
+    font-weight: 600;
+    
+}
+
+input{
+    margin-top: 0.2vw;
+    height: 2.5vw;
+    width: 17vw;
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+input:focus {
+    border-color: #007bff; 
+}
+
 .footer{
     flex: 1.5;
     background-color: var(--green);
+    display: flex;
+    flex-direction: column;
 }
+.footer-top{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+}
+.footer-btm{
+    color: var(--primary);
+    opacity: 0.8;
+    flex: 1;
+    text-align: center;
+}
+.f{
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+#f1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.f1-top{
+    display: flex;
+    flex-direction: row;
+}
+.f1-top img{
+    height: 5vw;
+}
+.f1-top h1{
+    color: var(--primary);
+    padding: 1vw;
+    font-size: 2vw;
+    font-weight: 500;
+    opacity: 0.9;
+}
+#f1 p{
+    margin: 1vw;
+    color: var(--primary);
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+#f2{
+    flex: 1;
+}
+#f3{
+    flex: 1;
+}
+#f4{
+    flex: 1;
+}
+
+#f2{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}
+
+.f-head{
+    color: var(--primary);
+    opacity: 0.9;
+    font-size: 1.75vw;
+}
+.f-list{
+    padding: 1.5vw;
+    padding-top: 1vw;
+    padding-left: 0vw;
+    color: var(--primary);
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+.f-list ul{
+    list-style-type: none;
+}
+.f-list ul li{
+    margin-bottom: 0.5vw;
+}
+
+.carousel {
+    position: relative;
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  .carousel__images {
+    max-width: 60vw;
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .carousel__track-container {
+    background: pink;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .carousel__track {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  .carousel__slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+  .carousel__button:hover {
+    background-color: rgb(254, 215, 222);
+    border-radius: 20px;
+  }
+  
+  .carousel__button--left {
+    left: -40px;
+  }
+  .carousel__button--right {
+    right: -40px;
+     transform: translateY(-50%) rotate(180deg)
+  }
+  .carousel__button img {
+    width: 25px;
+  }
+  .carousel__nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 1rem;
+  }
+  .carousel__indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+  }
+  
+  .carousel__indicator.current-slide {
+    background: rgba(0, 0, 0, 0.9);
+  }
+  .is-hidden {
+    display: none;
+  }
+
+  .gallery-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .gs{
+    margin-top: 5%;
+  }
