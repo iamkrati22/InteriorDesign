@@ -8,7 +8,8 @@
     --blue: #1e90ff;
     --white: #ffffff;
     --primary:#FDF7F1;
-    --green: #177171;
+    /* --green: #177171; */
+    --green: #52291B;
     --mustard: #177171;
     --primary-font: 'Montserrat', sans-serif;
     --secondary-font: 'Poppins', sans-serif, 'arial';
@@ -66,9 +67,9 @@ a{
     justify-content: center;
  }
 .nav-rgt ul li {
-    background-color: var(--green);
+    background-color: #52291B;
     padding: 0.7vw 1vw;
-    width: 8vw;
+    width: 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,11 +83,12 @@ a{
 }
 
 .main-ctn{
-    height: 100%;
+    height: 100vh;
     background-image: url("./images/4.JPG");
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
 }
 
 .main-ctn-top{
@@ -124,9 +126,9 @@ a{
     color: var(--green);
     margin-left: 1vw;
     font-family: var(--primary-font);
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 600;
-    padding: 1.8vw 1vw;
+    padding: 1.5vw 1vw;
     text-align: center;
 }
 .about-top{
@@ -177,6 +179,7 @@ a{
     font-size: 28px;
     padding: 1vw;
     padding-left: 0vw;
+    color: var(--green);
 }
 .about-about{
     font-size: 13px;
@@ -194,8 +197,8 @@ a{
 .services-top h3{
     font-weight: 500;
     font-style: none;
-    color: var(--green);
-    font-size: 40px;
+    font-size: 30px;
+    padding: 1vw;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -228,7 +231,7 @@ a{
 }
 .service-head{
     margin-left: 1.5vw;
-    font-size: 35px;
+    font-size: 30px;
     color: var(--green);
 }
 .service-about{
@@ -238,6 +241,7 @@ a{
 }
 .services-btm-ctn{
     background-color: var(--green);
+    opacity: 0.95;
     color: var(--primary);
 }
 
@@ -267,6 +271,7 @@ a{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin-top: 5vw;
 }
 .contact-us{
     flex: 2;
@@ -453,7 +458,7 @@ input:focus {
     height: 500px;
     width: 650px;
     margin: 0 auto;
-    margin-top: -4rem;
+    margin-top: 4rem;
   }
   .carousel__images {
     max-width: 60vw;
@@ -532,9 +537,142 @@ input:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: auto;
     margin-bottom: auto;
   }
   .gs{
     margin-top: 5%;
   }
+
+  @media screen and (max-width: 600px) {
+   .about-top{
+    flex-direction: column;
+   }
+   .about-top-rgt img{
+    margin-right: auto;
+    margin-left: auto;
+    height: 30vh;
+    width: auto;
+   }
+   .about-btm{
+    flex-direction: column;
+    padding-bottom: 20%;
+   }
+   .services{
+    margin-top: 180%;
+    padding-top: 20%;
+   }
+   .services-btm{
+    flex-direction: column;
+   }
+   .service-head{
+    text-align: center;
+   }
+   .service-about{
+    padding: 2vh;
+   }
+   .gallery{
+    margin-top: 150vh;
+   }
+  }
+
+.scopeofwork{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scope{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 40vh;
+    padding: 0vw 2vw;
+    margin: 2vw;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+#scope1, #scope3{
+    flex-direction: row-reverse;
+}
+.scope-text{
+    flex: 2;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+}
+.scope img{
+    flex: 2;
+    height: 40vh;
+    padding: 2vw;
+}
+.scope ul {
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+}
+.scope h1{
+    font-family: var(--primary-font);
+    color: var(--green);
+    font-size: 25px;
+}
+.scope ul li{
+    font-size: 1.4vw;
+}
+.process{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.p{
+    margin-top: 5vh;
+    background-color: var(--green);
+    height: 35vh;
+    width: 35vh;
+    border-radius: 50%;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p h5{
+    text-align: center;
+    color: var(--primary);
+    font-family: var(--primary-font);
+    font-size: 1.5vw;
+}
+.p ul li{
+    color: rgb(232, 178, 154);
+    font-size: 1.2vw;
+    padding: 0vw 1vw;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 1vw;
+}
+.why{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vw;
+    border: 1px solid var(--green);
+    margin-top: 5vw;
+    width: 70vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5vw;
+}
+.why h5{
+    color: var(--green);
+    font-family: var(--primary-font);
+    text-align: center;
+    padding: 1vw;
+    font-size: 3vw;
+}
+.why p{
+    text-align: center;
+    width: 60vw;
+    margin-top: 0.8vw;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.5vw;
+}
