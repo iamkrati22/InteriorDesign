@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 :root {
@@ -546,9 +547,31 @@ input:focus {
   }
 
   @media screen and (max-width: 600px) {
+    .scope{
+        flex-direction: column-reverse !important;
+        height: 30vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .scope img{
+        flex: 0;
+        height: 20vh !important;
+        padding: 1vw;
+    }
+    .scope-text{
+        flex: 0;
+    }
+    .scope h1{
+        font-size: 15px !important;
+        text-align: center;
+    }
     .f-head{
         font-size: 2vh;
     }
+    .logo{
+        flex: 0.4;
+    }
+  
    .about-top{
     flex-direction: column;
    }
@@ -635,12 +658,18 @@ input:focus {
    }
    .nav-rgt ul{
     margin-left: 0.1vw !important;
+    display: none;
    }
    .contact-sub-section{
     flex-direction: column;
    }
+   .scope ul{
+    padding: 1vw !important;
+    margin: 1vh;
+   }
    .scope ul li{
-    display: none;
+
+    font-size: 1.5vh !important;
    }
    .sub-section h4{
     margin: 5vw;
