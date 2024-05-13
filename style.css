@@ -618,7 +618,7 @@ input:focus {
     font-size: 2vh !important;
    }
    #navbar{
-    height: 8vh !important;
+    height: 10vh !important;
    }
    .logo img{
     height: 7vh;
@@ -628,10 +628,29 @@ input:focus {
    }.nav-rgt ul li{
     width: 90px;
    }
+   .nav-rgt ul{
+    margin-left: 0.1vw !important;
+   }
    .contact-sub-section{
     flex-direction: column;
    }
+   .scope ul li{
+    display: none;
+   }
+   .sub-section h4{
+    margin: 5vw;
+   }
+   .gs h4{
+    margin: 0px !important;
+   }
+   .f p, ul li, #f1 p{
+    font-size: 1.5vh;
+   }
+   #f1 img{
+    display: none;
+   }
   }
+
 
 .scopeofwork{
     display: flex;
