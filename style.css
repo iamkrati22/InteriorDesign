@@ -547,6 +547,9 @@ input:focus {
   }
 
   @media screen and (max-width: 600px) {
+    .footer-btm{
+        font-size: 1vh !important;
+    }
     .scope{
         flex-direction: column-reverse !important;
         height: 30vh;
@@ -579,7 +582,7 @@ input:focus {
     margin-right: auto;
     margin-left: auto;
     height: 30vh;
-    width: auto;
+    width: 80vw;
    }
    .contact-us{
     margin-bottom:5vh;
