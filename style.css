@@ -456,9 +456,8 @@ input:focus {
 .carousel {
     position: relative;
     height: 500px;
-    width: 650px;
+    width: 80vw;
     margin: 0 auto;
-    margin-top: 4rem;
   }
   .carousel__images {
     max-width: 100vw;
@@ -547,6 +546,9 @@ input:focus {
   }
 
   @media screen and (max-width: 600px) {
+    .f-head{
+        font-size: 2vh;
+    }
    .about-top{
     flex-direction: column;
    }
@@ -555,6 +557,9 @@ input:focus {
     margin-left: auto;
     height: 30vh;
     width: auto;
+   }
+   .contact-us{
+    margin-bottom:5vh;
    }
    .about-btm{
     flex-direction: column;
@@ -648,6 +653,19 @@ input:focus {
    }
    #f1 img{
     display: none;
+   }
+   .about-btm{
+    margin: 10px !important;
+   }
+   .about-about{
+    padding: 0px !important;
+   }
+   .about-hd{
+    padding: 0px;
+   }
+   .services-btm-ctn{
+    margin: 20px;
+    margin-top: 3vh;
    }
   }
 
