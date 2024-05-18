@@ -417,8 +417,11 @@ label {
 }
 
 input {
-    padding: 0.5rem;
-    font-size: 1.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 90%;
     margin-top: 0.2vw;
     height: 2.5vw;
     width: 17vw;
