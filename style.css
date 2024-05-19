@@ -513,7 +513,7 @@ input:focus {
 .f-head {
     color: var(--primary);
     opacity: 0.9;
-    font-size: 1.75vw;
+    font-size: 1.75rem;
 }
 
 .f-list {
@@ -523,18 +523,22 @@ input:focus {
     color: var(--primary);
     opacity: 0.9;
     font-size: 1.2vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
-.f-list ul {
-    list-style-type: none;
+.f-list#links{
+    flex-direction: column;
+    gap: 0.25rem;
 }
 
-.f-list ul a {
+.f-list a {
     color: inherit;
 }
 
-.f-list ul a li {
-    margin-bottom: 0.5vw;
+.f-list a img{
+    width: 30px;
 }
 
 .carousel {
@@ -840,7 +844,7 @@ input:focus {
     }
 
     .f-head {
-        font-size: 2vh;
+        font-size: 1.5rem;
     }
 
     .logo {
@@ -1125,8 +1129,39 @@ input:focus {
         width: auto;
     }
 
+    .footer{
+        padding: 5%;
+    }
+
     .footer .footer-top{
-        display: grid;
-        grid-template-columns: auto auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .footer .footer-btm{
+        padding: 0;
+    }
+
+    .footer .footer-top .f, #f2{
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    #f1 p{
+        font-size: 1rem;
+    }
+
+    .f-list{
+        margin-top: 0.5rem;
+        gap: 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    .f-list a img{
+        width: 20px;
     }
 }
