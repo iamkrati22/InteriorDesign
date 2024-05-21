@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
-
+    <script src="./script.js"></script>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <div class="logo">
             <img src="./images/logoo.png" alt="" class="logo-img" />
         </div>
-        <div class="nav-mid">
+        <div class="nav-mid" id="menu-links">
             <ul class="nav__links">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
@@ -36,6 +36,9 @@
                 <li><a href="./contact.html">Contact us</a></li>
             </ul>
         </div>
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+            &#8801;
+        </a>
     </nav>
 
         <!-- Services Section -->
@@ -139,46 +142,39 @@
                     create extraordinary interiors.</p>
             </div>
             <div class="f" id="f2">
-                <div class="f-head">Company</div>
-                <div class="f-list">
-                    <ul>
-                        <li>Zamayrrah</li>
-                        <li>2nd floor, Above Manyawar Showroom, Rohit House, Opp. SaharaGanj Mall, Shahnajaf
-                            Road, Lucknow, India</li>
-                        <li>&phone; +91 9580876464</li>
-                        <li>&#x1F4E7; zamayrrahdesignco@gmail.com</li>
-                    </ul>
+                <div class="f-head">Office Address</div>
+                <div class="f-address">
+                        2nd floor, Above Manyawar Showroom, Rohit House, Opp. SaharaGanj Mall, Shahnajaf
+                            Road, Lucknow, India<br>
+                        &#128222; +91 9580876464<br>
+                        &#x1F4E7; zamayrrahdesignco@gmail.com
                 </div>
             </div>
             <div class="f" id="f3">
                 <div class="f-head">Quick Links</div>
-                <div class="f-list">
-                    <ul>
+                <div class="f-list" id="links">
                         <a href="https://docs.google.com/file/d/1NVgqWwadu0Fm8t0_36gfw__wX7SqveV5/edit?usp=docslist_api&filetype=msword"
                             target="_blank">
-                            <li>Privacy</li>
+                            Privacy
                         </a>
                         <a href="https://docs.google.com/document/d/1yL8KPZueIc9GXFXytiqXDTkB1vt_sOSq/edit#heading=h.gjdgxs"
                             target="_blank">
-                            <li>Terms & Conditions</li>
+                            Terms & Conditions
                         </a>
-                    </ul>
                 </div>
             </div>
             <div class="f" id="f4">
                 <div class="f-head">Social Media</div>
                 <div class="f-list">
-                    <ul>
                         <a href="https://www.instagram.com/zamayrrah_designandco" target="_blank">
-                            <li>Instagram</li>
+                            <img src="./images/insta.webp">
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=61559289151933" target="_blank">
-                            <li>Facebook</li>
+                            <img src="./images/facebook.webp">
                         </a>
                         <a href="https://www.linkedin.com/company/102032661" target="_blank">
-                            <li>LinkedIn</li>
+                            <img src="./images/linkedin.png">
                         </a>
-                    </ul>
                 </div>
             </div>
         </div>

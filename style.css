@@ -52,6 +52,10 @@ a {
     height: 5.9vw;
 }
 
+#navbar > a{
+    display: none;
+}
+
 .nav-mid ul {
     list-style-type: none;
     display: flex;
@@ -514,6 +518,15 @@ input:focus {
     color: var(--primary);
     opacity: 0.9;
     font-size: 1.75rem;
+}
+
+.f-address {
+    padding: 1.5vw;
+    padding-top: 1vw;
+    padding-left: 0;
+    color: var(--primary);
+    opacity: 0.9;
+    font-size: 1.2vw;
 }
 
 .f-list {
@@ -1047,15 +1060,42 @@ input:focus {
     }
 
     #navbar {
-        height: 10vh !important;
+        height: 3.5rem !important;
+    }
+
+    #navbar > a{
+        display: flex;
+        z-index: 3;
+        font-size: 3rem;
+        margin-right: 1rem;
+    }
+
+    #navbar #menu-links{
+        z-index: 2;
+        display: none;
+        position: absolute;
+        left: 0;
+    }
+
+    #navbar #menu-links .nav__links{
+        width: 100vw;
+        margin-top: 3.4rem;
+        padding: 1rem;
+        background-color: var(--white);
+        display: block;
     }
 
     .logo img {
         height: 7vh;
     }
 
+    .nav-mid ul li{
+        border-bottom: 1px solid var(--green);
+        margin-bottom: 0.75rem;
+    }
+
     .nav-mid ul li a {
-        font-size: 12px;
+        font-size: 1.2rem;
     }
 
     .nav-rgt ul li {
@@ -1153,6 +1193,12 @@ input:focus {
 
     #f1 p{
         font-size: 1rem;
+    }
+
+    .f-address{
+        margin-top: 0.5rem;
+        gap: 0.5rem;
+        font-size: 0.75rem;
     }
 
     .f-list{
